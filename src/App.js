@@ -15,6 +15,7 @@ function App() {
     setSearchCharacter(query);
   };
 
+  console.log("qwerty");
   const getFound = async () => {
     setLoading(true);
     await axios
